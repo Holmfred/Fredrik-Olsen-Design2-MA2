@@ -1,0 +1,43 @@
+.jumbo {
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    min-height: 30vh;
+    border-radius: 20px;
+    background-position-y: center;
+    opacity: 0.5;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.card-lg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-lg img {
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+.card-lg h3 {
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+.card-lg {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-lg button {
+    margin-top: 20px;
+    max-width: 200px;
+    margin-left: 300px;
+}
+

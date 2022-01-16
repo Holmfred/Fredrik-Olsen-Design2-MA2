@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    background-image: url(../images/dust_scratches.png);
+    background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Fredericka the Great', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    margin-left:10px;
+    color: white;
+    font-size: 33px;
+}
+
+h2, h3{
+    color:black;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.header {
+    background-color: #1ca9c9;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    height: 70px;
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.rooms, 
+.product-container {
+    background-color: white;
+    width: 1000px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.card {
+    width: 200px;
+}
+
+.card img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #1ca9c9;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #1ca9c9;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 25px;
+}
+
+
+
+
+
